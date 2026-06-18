@@ -1,0 +1,35 @@
+name: sstml
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  # Core
+  - python=3.10
+  - pip
+
+  # Deep Learning (PyTorch + CUDA 12.1 + cuDNN 9)
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - torchaudio=2.5.1
+  - pytorch-cuda=12.1
+
+  # Scientific & Data
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - netcdf4
+  - h5py
+
+  # Visualization
+  - matplotlib
+  - cartopy
+  - seaborn
+
+  # Machine Learning utils
+  - scikit-learn
+  - jupyterlab
+
+
